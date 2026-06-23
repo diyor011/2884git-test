@@ -2,12 +2,14 @@ import React from 'react'
 import Navbar from './componetns/Navbar'
 import { Outlet } from 'react-router-dom'
 import Aside from './componetns/Aside'
+import Users from './pages/Users'
 
 const App = () => {
   return (
     <div>
 
       <Navbar />
+      <Users/>
 
       <div className='flex'>
         <Aside />
