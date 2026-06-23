@@ -17,10 +17,7 @@ const App = () => {
           <Outlet />
         </div>
       </div>
-
-git 
-
-
+ 
     </div>
   )
 }
